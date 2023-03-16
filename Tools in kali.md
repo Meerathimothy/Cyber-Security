@@ -1,6 +1,6 @@
 Meera E Thimothy
-
-CB.EN.P2CYS22002                 Analyzing Tools in Kali                                                   16-03-2022
+                                           Analyzing Tools in Kali                                         
+CB.EN.P2CYS22002                                                             
 
 
 1) Information Gathering
