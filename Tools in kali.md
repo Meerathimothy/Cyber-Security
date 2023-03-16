@@ -53,7 +53,7 @@ operations performed like
 advance port scanning
 Test firewall rule
 
-2) Network And Port scanner
+d) Network And Port scanner
 
 Network scanning detects all active hosts on a network and maps to their IP addresses. Port scanning is sending packets to specific 
 ports on a host and analyzing the responses.
@@ -66,7 +66,7 @@ ii) nmap
 
 nmap is used to find host and services for sending packets and analysing response. It is mainly used for auditing the security of a device.
 
-3) Osint Analysis
+e) Osint Analysis
 
 open source intelligence 
 collection and analysis of data from open source to produce some intelligence. It is used in business intelligence, national securities, law enforcement.
@@ -84,7 +84,7 @@ iii) Theharvester
 It is wrapper of different search engines and is used to find out email account, open ports , subdomains etc. It is open source tool. 
 It is developed using python. theharvester is used to gather open source intelligence on a company or domain.
 
-4) Route Analysis
+f) Route Analysis
 
 It determines the best route from one network location to one or more other locations. It can also calculate the quickest or shortest 
 route
@@ -97,13 +97,13 @@ ii) Netmask
 
 It is used in computer networks. It gives the class and range of IP address. It provides a method to create subnetworks from large network. Netmask length is defined in up to 24-bit format. The greater the length of netmask the more networks it can accommodate.
 
- SMTP Analysis
+ g) SMTP Analysis
 
 swaks
 
 It deals with mail server and administration. This tool make it easy find the unverified mails from lists. Swaks has the ability to create subject and body content.
 
-Snmp Analysis
+f) Snmp Analysis
 
 i) Onesixtyone(161)
 
