@@ -1,7 +1,7 @@
 fping(fast ping)
-Meera
+
 It is used to send icmp request to network hosts. Similar to ping but we are pinging multiple hosts. It will not wait for one ping to complete. It gives you the ability to scan list of hosts and gives which one is alive.
-meera
+
  Hping3
 
 Allows to send custom TCP/IP and get replies like that of ping. It is like generator and analyzer for Tcp/Ip
@@ -9,7 +9,7 @@ operations performed like
 advance port scanning
 Test firewall rule
 
-Network And Port scanner
+2) Network And Port scanner
 
 Network scanning detects all active hosts on a network and maps to their IP addresses. Port scanning is sending packets to specific 
 ports on a host and analyzing the responses.
@@ -20,7 +20,7 @@ masscan is a network port scanner. It scans large area of network so quickly. It
 nmap
 nmap is used to find host and services for sending packets and analysing response. It is mainly used for auditing the security of a device.
 
-Osint Analysis
+3) Osint Analysis
 open source intelligence 
 collection and analysis of data from open source to produce some intelligence. It is used in business intelligence, national securities, law enforcement.
 
@@ -37,7 +37,7 @@ Theharvester
 It is wrapper of different search engines and is used to find out email account, open ports , subdomains etc. It is open source tool. 
 It is developed using python. theharvester is used to gather open source intelligence on a company or domain.
 
-Route Analysis
+4) Route Analysis
 
 It determines the best route from one network location to one or more other locations. It can also calculate the quickest or shortest 
 route
@@ -50,7 +50,8 @@ Netmask
 
 It is used in computer networks. It gives the class and range of IP address. It provides a method to create subnetworks from large network. Netmask length is defined in up to 24-bit format. The greater the length of netmask the more networks it can accommodate.
 
-SMTP Analysis
+ SMTP Analysis
+
 swaks
 It deals with mail server and administration. This tool make it easy find the unverified mails from lists. Swaks has the ability to create subject and body content.
 
@@ -58,10 +59,9 @@ Snmp Analysis
 
 Onesixtyone(161)
 
-This tool contain a snmp agent that takes request on UDP. It is a very simple SNMP scanner that only requests the system description value
- for any specified IP address. It is also used to bruteforce snmp.
+This tool contain a snmp agent that takes request on UDP. It is a very simple SNMP scanner that only requests the system description value for any specified IP address. It is also used to bruteforce snmp.
 
-Vulnerablity Analysis
+2) Vulnerablity Analysis
 
 Voip Tool
 
@@ -74,7 +74,7 @@ It is a free software command-line vulnerability scanner. It is used to scan for
 Legion
 It is an open source tool. It is a testing tool that aids in discovery and exploitation of information systems. It is used to execute vulnerabilities assessment tasks.
 
-Web Application Analysis
+3) Web Application Analysis
 
 Burpsuite
 It is used to perform security testing of web application. It has the ability to intercept and modify HTTP and HTTPS traffic between the browser and web application. It is also used to identify vulnerabilities such as SQL injection, cross-site scripting (XSS) and other web application attacks.
@@ -82,9 +82,12 @@ It is used to perform security testing of web application. It has the ability to
 Skipfish
 Skipfish is a free, open-source Automated Penetration Testing tool available on GitHub made for security researchers. Skipfish is used for information gathering and testing security of website or webserver. It gives us all the security check that are active and generate report of further security assessment to be done.
 
-Database Assessment
+4) Database Assessment
+
 Sqlmap
+
 It is a free tool that gives of database vulnerability. It will detect and exploit SQLi flaws
-Password Attacks
-Cewl
+
+5) Password Attacks
+ Cewl
 
