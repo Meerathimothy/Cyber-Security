@@ -1,7 +1,7 @@
 fping(fast ping)
 Meera
 It is used to send icmp request to network hosts. Similar to ping but we are pinging multiple hosts. It will not wait for one ping to complete. It gives you the ability to scan list of hosts and gives which one is alive.
-
+meera
  Hping3
 
 Allows to send custom TCP/IP and get replies like that of ping. It is like generator and analyzer for Tcp/Ip
