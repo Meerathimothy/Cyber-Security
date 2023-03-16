@@ -103,7 +103,7 @@ swaks
 
 It deals with mail server and administration. This tool make it easy find the unverified mails from lists. Swaks has the ability to create subject and body content.
 
-f) Snmp Analysis
+h) Snmp Analysis
 
 i) Onesixtyone(161)
 
