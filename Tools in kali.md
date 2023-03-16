@@ -68,7 +68,6 @@ Voip Tool
 It is used for the transmission of voice and the multimedia over the internet.
 
 Nikto
-
 It is a free software command-line vulnerability scanner. It is used to scan for dangerous files. It captures and print any cookie received.
 
 Legion
@@ -85,9 +84,28 @@ Skipfish is a free, open-source Automated Penetration Testing tool available on 
 4) Database Assessment
 
 Sqlmap
-
 It is a free tool that gives of database vulnerability. It will detect and exploit SQLi flaws
 
 5) Password Attacks
+ 
  Cewl
+ It is a ruby based tool. It is used to generate custom wordlists. It will crawl a specific URL to defined path and returns a list of wordlist. These wordlist can be used as password cracker. It is preinstalled in kali.
+ 
+ John The Ripper
+ It help sysyem administrators to find out the weak passwords. It is the most powerful password cracking tool. It does brute forcing a list of password. If the password is short and/or weak, John the Ripper can crack such data quickly.
+ 
+ Wordlists
+ 
+ Wordlist can be referred to as a password dictionary since it is a collection of passwords which is stored as plain text. Wordlists are derived from data breaches.
+ 
+ 6) Wireless Attacks
+
+Bully
+It is a new implementation of WPS bruteforce attack. It is written in c. It exploit the design flaw in wps specification. It will break wps pin to get password.
+
+Aircrack-ng
+It is a tool to asses wifi networksecurity. It is used to crack wifi passwords. It is command line based tool. They perform monitoring of packet capturing , attacking, Testing wifi cards and drives and cracking of passwords.
+ 
+ 
+ 
 
