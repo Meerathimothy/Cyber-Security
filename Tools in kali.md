@@ -1,5 +1,5 @@
 fping(fast ping)
-
+Meera
 It is used to send icmp request to network hosts. Similar to ping but we are pinging multiple hosts. It will not wait for one ping to complete. It gives you the ability to scan list of hosts and gives which one is alive.
 
  Hping3
