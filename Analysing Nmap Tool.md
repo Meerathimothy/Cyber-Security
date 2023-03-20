@@ -1,6 +1,8 @@
  Meera E Thimothy    
-                              Analysis Of Nmap Tool
-  CB.EN.P2CYS22002
+                             
+                             Analysis Of Nmap Tool
+ 
+ CB.EN.P2CYS22002
                               
 a) Explain the subnet and use the NMAP Command to scan the services for the whole subnet.
 
