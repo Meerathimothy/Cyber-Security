@@ -58,8 +58,20 @@ h) Explain ping sweeping and Perform ping sweeping using Nmap
    
    1) What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprint detection using NMAP?
 
-   A WAF or web application firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It protects      web applications from variety of application layer attacks such as cross-site scripting (XSS), SQL injection, cookie poisoning.
-     
+   A WAF or web application firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It protects web applications from variety of application layer attacks such as cross-site scripting (XSS), SQL injection, cookie poisoning.
+   
+   To detect a WAF, we used nmap -sV --script=http-waf-detect <target> command
+
+![image](https://user-images.githubusercontent.com/57287429/226347465-2f0b90a4-5ce8-41ac-9490-1f0cb19ce620.png)
+   
+   To perform WAF fingerprint detection nmap -sV --script=http-waf-fingerprint <target>.
+   
+ ![image](https://user-images.githubusercontent.com/57287429/226347730-d7812ddc-634a-476c-9b36-fceb47a167ca.png)
+
+
    2) What is EXIF data? Tryto find EXIF data of images on a website using NMAP NSE. 
    
       EXIF (Exchangeable Image File Format) files store important data about photographs. An EXIF file holds all the information about the image itself such as the   exposure level where the photo was taken and settings used. It represents the metadata that is embedded in photos by digital camera manufacturers.
+   
+ ![image](https://user-images.githubusercontent.com/57287429/226350390-92b62edb-3900-4a81-92cd-436dca42fed3.png)
+ ![image](https://user-images.githubusercontent.com/57287429/226350318-cdde5c0f-9f48-423d-9606-597d5955995c.png)
