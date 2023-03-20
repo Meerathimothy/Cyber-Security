@@ -59,25 +59,25 @@ h) Explain ping sweeping and Perform ping sweeping using Nmap
    A WAF or web application firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It protects web applications from variety of application layer attacks such as cross-site scripting (XSS), SQL injection, cookie poisoning.
    
    To detect a WAF, we used nmap -sV --script=http-waf-detect <target> command
-
-![image](https://user-images.githubusercontent.com/57287429/226347465-2f0b90a4-5ce8-41ac-9490-1f0cb19ce620.png)
+   
+![image](https://user-images.githubusercontent.com/57287429/226403474-4a79d9dc-c7c4-4971-9754-1d70727614ab.png)
    
    To perform WAF fingerprint detection nmap -sV --script=http-waf-fingerprint <target>.
    
- ![image](https://user-images.githubusercontent.com/57287429/226347730-d7812ddc-634a-476c-9b36-fceb47a167ca.png)
-
+   ![image](https://user-images.githubusercontent.com/57287429/226403892-096d564c-baad-4181-a98a-4b2069bccd05.png)
 
    2) What is EXIF data? Tryto find EXIF data of images on a website using NMAP NSE. 
    
       EXIF (Exchangeable Image File Format) files store important data about photographs. An EXIF file holds all the information about the image itself such as the   exposure level where the photo was taken and settings used. It represents the metadata that is embedded in photos by digital camera manufacturers.
    
- ![image](https://user-images.githubusercontent.com/57287429/226350390-92b62edb-3900-4a81-92cd-436dca42fed3.png)
- ![image](https://user-images.githubusercontent.com/57287429/226350318-cdde5c0f-9f48-423d-9606-597d5955995c.png)
-
+ 
+   
   3) Use NMAP NSE to find all subdomains of the website. 
    
    ![image](https://user-images.githubusercontent.com/57287429/226353642-e9b6481e-cb1c-446a-abb4-fc8ca49194ba.png)
    
   4) Perform a vulnerability scan on the target host using NMAP NSE.
    
+   ![image](https://user-images.githubusercontent.com/57287429/226402501-1e28fbd1-6d88-472a-83b8-cf666cd10f7f.png)
+
    
