@@ -1,3 +1,7 @@
+ Meera E Thimothy    
+                              Analysis Of Nmap Tool
+  CB.EN.P2CYS22002
+                              
 a) Explain the subnet and use the NMAP Command to scan the services for the whole subnet.
 
 Subnet is a segmented piece of a larger network. It falls within the class A, B or C range. Ip address are used for subnetting. Systems can communicate within subnetwork but not with other subnetworks. That's why it is more secured.
@@ -31,20 +35,17 @@ c)  Use the NMAP command to scan a network and determinewhich devices are up and
 
 ![image](https://user-images.githubusercontent.com/57287429/226363906-45ff12dd-12db-414c-b03a-648c5e583ea2.png)
 
-
 d)  What are vertical and horizontal scanning?
 
 Horizontal scanning or network scanning sends requests to the same port on different hosts. Attackers use horizontal scanning to prepare for a mass attack. It is also scanning a group of IPs for a single ports.
 
 Vertical scanning sends requests to different ports on the same host. Attackers use vertical scanning to look for vulnerabilities in a preselected target. It is also scanning single IP being scanned for multiple ports.
 
-e)  Use the NMAP command to scan multiple hosts. [HINT: Add hosts into a file and scan it].
-
 f) Use NMAP commands to export the output in XML format
 
 ![image](https://user-images.githubusercontent.com/57287429/226341034-f4280861-cf93-4862-87eb-14b33eb56f45.png)
 
-g)  Use the NMAP command to getOS information about a host
+g)  Use the NMAP command to get OS information about a host
 
 ![image](https://user-images.githubusercontent.com/57287429/226364878-08d8529b-4c5c-4327-beae-01a09de4cd8b.png)
 
@@ -70,11 +71,12 @@ h) Explain ping sweeping and Perform ping sweeping using Nmap
    
       EXIF (Exchangeable Image File Format) files store important data about photographs. An EXIF file holds all the information about the image itself such as the   exposure level where the photo was taken and settings used. It represents the metadata that is embedded in photos by digital camera manufacturers.
    
+ ![image](https://user-images.githubusercontent.com/57287429/226405384-964d0f99-8feb-4195-b677-2a1b6cd25d64.png)
+ ![image](https://user-images.githubusercontent.com/57287429/226406162-f9e72000-a5be-42f3-85fa-0f60a508ef07.png)
  
-   
   3) Use NMAP NSE to find all subdomains of the website. 
    
-   ![image](https://user-images.githubusercontent.com/57287429/226353642-e9b6481e-cb1c-446a-abb4-fc8ca49194ba.png)
+   ![image](https://user-images.githubusercontent.com/57287429/226406775-955950cb-494f-4bb3-981e-7d006b2886d5.png)
    
   4) Perform a vulnerability scan on the target host using NMAP NSE.
    
