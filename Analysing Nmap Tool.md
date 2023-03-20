@@ -50,11 +50,10 @@ g)  Use the NMAP command to getOS information about a host
 
 h) Explain ping sweeping and Perform ping sweeping using Nmap
    
-   Ping sweep is a method that establish a range of IP addresses which map to live hosts. The classic tool used for ping sweeps is fping. it is series of pings that      are automatically sent to a range of IP addresses instead of manually entering the individual address. Ping sweep can be done using Nmap.
+   Ping sweep is a method that establish a range of IP addresses which map to live hosts. The classic tool used for ping sweeps is fping. it is series of pings that are automatically sent to a range of IP addresses instead of manually entering the individual address. Ping sweep can be done using Nmap.
    
-   ![image](https://user-images.githubusercontent.com/57287429/226341153-2c082b57-c25d-4998-858f-1862a26a718e.png)
-
-   
+   ![image](https://user-images.githubusercontent.com/57287429/226366220-b5d7a299-257f-432e-88fc-ce3e8a5a98b4.png)
+ 
    1) What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprint detection using NMAP?
 
    A WAF or web application firewall helps protect web applications by filtering and monitoring HTTP traffic between a web application and the Internet. It protects web applications from variety of application layer attacks such as cross-site scripting (XSS), SQL injection, cookie poisoning.
