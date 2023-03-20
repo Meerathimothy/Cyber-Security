@@ -7,6 +7,9 @@ class C  has ip address ranging from 0.0.0.0 to 192.255.255.255 with subnet mask
 
 Nmap allows to scan network and discover everything connected to it. It also give information about what's connected, what services each host is operating, and so on. It gives detail of open ports , live host etc.
 
+![image](https://user-images.githubusercontent.com/57287429/226338448-8e939ef2-3ca1-4e51-916a-8a6561c992c3.png)
+
+
 b) What is a firewall and mention its types. Use the NMAP command to detect that a firewall protects the host.
 
 Firewalls monitor incoming and outgoing network traffic and allow/prohibit data packets based on a set of rules. Firewalls protect networks from external and malicious traffic and data packets while allowing legitimate traffic to pass through.
@@ -23,8 +26,12 @@ vii)  Network Address Translation (NAT) Firewalls
 viii) Cloud Firewalls
 ix)   Unified Threat Management (UTM) Firewalls
 
+![image](https://user-images.githubusercontent.com/57287429/226338668-7b224299-98cf-47a6-85ce-aa51e92af971.png)
 
-c) 
+c)  Use the NMAP command to scan a network and determinewhich devices are up and running
+
+
+
 
 d)  What are vertical and horizontal scanning?
 
