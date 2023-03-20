@@ -30,8 +30,7 @@ ix)   Unified Threat Management (UTM) Firewalls
 
 c)  Use the NMAP command to scan a network and determinewhich devices are up and running
 
-
-
+![image](https://user-images.githubusercontent.com/57287429/226339319-f4a7f311-bd11-4941-84f1-9011c5c28293.png)
 
 d)  What are vertical and horizontal scanning?
 
@@ -39,13 +38,23 @@ Horizontal scanning or network scanning sends requests to the same port on diffe
 
 Vertical scanning sends requests to different ports on the same host. Attackers use vertical scanning to look for vulnerabilities in a preselected target. It is also scanning single IP being scanned for multiple ports.
 
-e)
+e)  Use the NMAP command to scan multiple hosts. [HINT: Add hosts into a file and scan it].
 
-f)
 
-g) Explain ping sweeping and Perform ping sweeping using Nmap
+f) Use NMAP commands to export the output in XML format
+
+![image](https://user-images.githubusercontent.com/57287429/226341034-f4280861-cf93-4862-87eb-14b33eb56f45.png)
+
+g)  Use the NMAP command to getOS information about a host
+
+![image](https://user-images.githubusercontent.com/57287429/226341944-2cbf1e05-ffcd-428b-a724-11290f2846b6.png)
+
+h) Explain ping sweeping and Perform ping sweeping using Nmap
    
    Ping sweep is a method that establish a range of IP addresses which map to live hosts. The classic tool used for ping sweeps is fping. it is series of pings that      are automatically sent to a range of IP addresses instead of manually entering the individual address. Ping sweep can be done using Nmap.
+   
+   ![image](https://user-images.githubusercontent.com/57287429/226341153-2c082b57-c25d-4998-858f-1862a26a718e.png)
+
    
    1) What is a web application firewall? How do you use Nmap to detect a WAF? Perform WAF fingerprint detection using NMAP?
 
