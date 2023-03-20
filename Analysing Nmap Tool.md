@@ -7,8 +7,7 @@ class C  has ip address ranging from 0.0.0.0 to 192.255.255.255 with subnet mask
 
 Nmap allows to scan network and discover everything connected to it. It also give information about what's connected, what services each host is operating, and so on. It gives detail of open ports , live host etc.
 
-![image](https://user-images.githubusercontent.com/57287429/226338448-8e939ef2-3ca1-4e51-916a-8a6561c992c3.png)
-
+![image](https://user-images.githubusercontent.com/57287429/226362565-91eaf040-25e4-4a23-8acd-70fdf054baa1.png)
 
 b) What is a firewall and mention its types. Use the NMAP command to detect that a firewall protects the host.
 
@@ -30,7 +29,8 @@ ix)   Unified Threat Management (UTM) Firewalls
 
 c)  Use the NMAP command to scan a network and determinewhich devices are up and running
 
-![image](https://user-images.githubusercontent.com/57287429/226339319-f4a7f311-bd11-4941-84f1-9011c5c28293.png)
+![image](https://user-images.githubusercontent.com/57287429/226363906-45ff12dd-12db-414c-b03a-648c5e583ea2.png)
+
 
 d)  What are vertical and horizontal scanning?
 
@@ -40,14 +40,13 @@ Vertical scanning sends requests to different ports on the same host. Attackers 
 
 e)  Use the NMAP command to scan multiple hosts. [HINT: Add hosts into a file and scan it].
 
-
 f) Use NMAP commands to export the output in XML format
 
 ![image](https://user-images.githubusercontent.com/57287429/226341034-f4280861-cf93-4862-87eb-14b33eb56f45.png)
 
 g)  Use the NMAP command to getOS information about a host
 
-![image](https://user-images.githubusercontent.com/57287429/226341944-2cbf1e05-ffcd-428b-a724-11290f2846b6.png)
+![image](https://user-images.githubusercontent.com/57287429/226364878-08d8529b-4c5c-4327-beae-01a09de4cd8b.png)
 
 h) Explain ping sweeping and Perform ping sweeping using Nmap
    
@@ -75,3 +74,11 @@ h) Explain ping sweeping and Perform ping sweeping using Nmap
    
  ![image](https://user-images.githubusercontent.com/57287429/226350390-92b62edb-3900-4a81-92cd-436dca42fed3.png)
  ![image](https://user-images.githubusercontent.com/57287429/226350318-cdde5c0f-9f48-423d-9606-597d5955995c.png)
+
+  3) Use NMAP NSE to find all subdomains of the website. 
+   
+   ![image](https://user-images.githubusercontent.com/57287429/226353642-e9b6481e-cb1c-446a-abb4-fc8ca49194ba.png)
+   
+  4) Perform a vulnerability scan on the target host using NMAP NSE.
+   
+   
