@@ -53,7 +53,8 @@
 
 ![image](https://user-images.githubusercontent.com/57287429/228026786-c21771c2-2f35-48cd-8723-b8417bbc517d.png)
 
-![image](https://user-images.githubusercontent.com/57287429/228022983-8ff88734-f43b-4b45-b58a-9c0f7c83563d.png)
+![image](https://user-images.githubusercontent.com/57287429/228028532-68c8ca13-261a-4a07-82f5-9ae3a7f10355.png)
+
 
 5) Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
 
