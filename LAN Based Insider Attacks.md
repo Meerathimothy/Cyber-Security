@@ -33,3 +33,9 @@
 ![image](https://user-images.githubusercontent.com/57287429/227964223-72a7faeb-d0ee-4699-b33d-c57b7ebd4ed7.png)
     
 ![image](https://user-images.githubusercontent.com/57287429/227964364-9729c171-89a6-4ec4-8313-c3c516e8e61b.png)
+
+4) Invoke ‘sslstrip tool’ for stealing passwordsfrom any machine that is connected toa LAN by stripping the HTTPSconnection. 
+
+![image](https://user-images.githubusercontent.com/57287429/228016681-3eb8ea1a-b66c-410f-96f8-52ba0e76f666.png)
+
+
