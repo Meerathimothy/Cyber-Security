@@ -13,7 +13,8 @@
     
     ![arp poisioning](https://user-images.githubusercontent.com/57287429/227922818-789e7886-5ac5-47f3-9302-ff0d5ec81878.png)
     
-    
+    ![image](https://user-images.githubusercontent.com/57287429/228029031-b79c57bb-4646-48a2-b38d-704c63f40fa0.png)
+
 2) Perform Denial of Service (DoS) attacks using ARP Cache Poisoning attacks 
    
    It is a cyberattack that makes a computer or other device unavailable to its intended users. Ettercap is being used as tool. Host is scaned and target is set from the host list. Now arp-poisioning is done. Now dos-attack plugin is selected and activated. The victim Ip address is given and an unused ip which is not there in host   list is also given. Now when a browser is opened in target, it will not connect to any site
@@ -49,12 +50,11 @@
    Identify the IP addresses of the target machines that you want to attack.
    Use the arpspoof tool, which is included with Ettercap, to spoof the ARP tables of the target machines. This will redirect network traffic to your machine.
 
-![image](https://user-images.githubusercontent.com/57287429/228022869-1852c11e-0960-4f48-84a3-fb33c7b20b47.png)
+![image](https://user-images.githubusercontent.com/57287429/228028532-68c8ca13-261a-4a07-82f5-9ae3a7f10355.png)
 
 ![image](https://user-images.githubusercontent.com/57287429/228026786-c21771c2-2f35-48cd-8723-b8417bbc517d.png)
 
-![image](https://user-images.githubusercontent.com/57287429/228028532-68c8ca13-261a-4a07-82f5-9ae3a7f10355.png)
-
+![image](https://user-images.githubusercontent.com/57287429/228022869-1852c11e-0960-4f48-84a3-fb33c7b20b47.png)
 
 5) Use arp_cop and scan_poisoner plugins to learn about the detection of ARP attacks.
 
