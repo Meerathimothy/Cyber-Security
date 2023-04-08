@@ -31,10 +31,6 @@ Wi-Fi fingerprinting is the process of gathering information about the Wi-Fi acc
  
 ![image](https://user-images.githubusercontent.com/123303806/230722300-6af031f5-bfe6-421d-90e5-ca152ba3239a.png)
 
-![image](https://user-images.githubusercontent.com/123303806/230722318-1afe1d29-356c-4001-9a3e-4860efe0128c.png)
-
-![image](https://user-images.githubusercontent.com/123303806/230722308-db3fd608-2204-4d7a-9566-f8ac98cb08f7.png)
-
 Inssider
 
 Inssider is a commercial tool that provides a graphical representation of Wi-Fi networks in the area. It uses a wireless adapter to capture information about nearby networks and displays the information in a user-friendly interface.
@@ -114,4 +110,45 @@ Aircrack-Ng That Password.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722637-e6a505ca-9582-429b-a820-3bf56fad4447.png)
 
+4. After capturing the required files for testing, use dictionary generation and password cracking tools to crack the Wi-Fi password.
+
+a. You must use an existing word file to crack the password.
+
+b. Also you have to create your dictionary file for cracking the passwords.
+
+c. Keep 3 different types of passwords for your Wi-Fi to test it. Simple, medium,and complex passwords can be used for testing. Simple can be a dictionary word, medium can be of dictionary word with some numbers, and complex can be generated from any password generator online.
+
+Passwords can be brute-forced but it is probably more efficient to use a dictionary. In Kali, wordlists can be found in /usr/share/wordlists. Fasttrack is good for testing weak passwords.
+
+![image](https://user-images.githubusercontent.com/123303806/230725999-725dd0b4-0da3-42dd-92c7-3b0975df9674.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230726005-0d4e1a8e-f8bb-4e83-a5ff-a5f10dc1b9ea.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230726022-141044bf-f25b-493b-ad2d-f2d8560b6792.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230726014-68f059e4-6df5-47c7-a030-da049df68f63.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230726033-8ab72e2a-6143-400a-afe8-5d0a5bbf362b.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722318-1afe1d29-356c-4001-9a3e-4860efe0128c.png)
+
+![image](https://user-images.githubusercontent.com/123303806/230722308-db3fd608-2204-4d7a-9566-f8ac98cb08f7.png)
+
+5.Use Rouge AP (WifiPhisher) to create an Evil twin, perform a basic phishing attack using this rouge AP,and document the difference between the two attacks you have performed.
+
+Ans : ![image](https://user-images.githubusercontent.com/123303806/230726047-465c2df1-f362-4dbc-b29d-fbd78909faa3.png)
+
+6.Learn the protocol level working of WPA3 and how it differs from WPA2.
+
+WPA3 (Wi-Fi Protected Access 3) is the latest security protocol for Wi-Fi networks, designed to improve upon the previous security standard, WPA2.The WPA3 protocol is designed to address the vulnerabilities and shortcomings of WPA2, which had become increasingly susceptible to attacks due to the hacking techniques.
+
+a. Stronger Encryption: WPA3 uses the more secure encryption protocol, Simultaneous Authentication of Equals (SAE), which is also known as Dragonfly. SAE uses a stronger Diffie-Hellman key exchange algorithm and provides forward secrecy, which makes it much harder for hackers to intercept and decrypt Wi-Fi traffic.
+
+b. Protection Against Offline Attacks: In WPA2, an attacker can capture the Wi-Fi traffic and use offline brute-force techniques to try and guess the Wi-Fi password. WPA3 addresses this vulnerability by implementing a feature called Simultaneous Authentication of Equals (SAE) which uses a key derivation function to protect against offline dictionary attacks.
+
+c. Improved Authentication: WPA3 introduces a new feature called Opportunistic Wireless Encryption (OWE), which provides encrypted connections without requiring authentication from users. OWE is designed to provide a more secure connection for public Wi-Fi networks, where it can be difficult to distribute pre-shared keys (PSKs) to users.
+
+d. Better Protection Against Password Guessing: WPA3 strengthens the protection against password guessing attacks by implementing a feature called Protected Management Frames (PMF). PMF helps to prevent unauthorized devices from connecting to the network by verifying the authenticity of devices before allowing them to connect.
+
+e. Enhanced Protection for IoT Devices: WPA3 also includes a new feature called Wi-Fi Easy Connect, which provides a simpler and more secure method for connecting IoT devices to Wi-Fi networks. Wi-Fi Easy Connect eliminates the need for users to manually enter long and complex passwords by allowing devices to use a QR code to connect to the network.
 
