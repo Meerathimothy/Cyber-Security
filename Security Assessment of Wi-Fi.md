@@ -1,3 +1,7 @@
+Meera E Thimothy
+                              Security Assesment Of Wifi
+CB.EN.P2CYS22002
+
 1. Learn the basic working of Wi-Fi and its types with various types of attacks on it.
 
 Wi-Fi works by using radio waves to transmit data between devices and a wireless access point, which is connected to the internet or a network. The access point acts as 
@@ -31,11 +35,21 @@ Wi-Fi fingerprinting is the process of gathering information about the Wi-Fi acc
  
 ![image](https://user-images.githubusercontent.com/123303806/230722300-6af031f5-bfe6-421d-90e5-ca152ba3239a.png)
 
-Inssider
+Aircrack-ng is a set of tools in Kali Linux that can be used to assess Wi-Fi network security. It is capable of monitoring (capturing packets), attacking, and cracking Wi-Fi networks
 
-Inssider is a commercial tool that provides a graphical representation of Wi-Fi networks in the area. It uses a wireless adapter to capture information about nearby networks and displays the information in a user-friendly interface.
+![image](https://user-images.githubusercontent.com/123303806/230722308-db3fd608-2204-4d7a-9566-f8ac98cb08f7.png)
 
-Kismet
+Use airodump to capture packet.
+
+![image](https://user-images.githubusercontent.com/123303806/230722318-1afe1d29-356c-4001-9a3e-4860efe0128c.png)
+
+Inssider 
+
+Inssider is a commercial tool that provides a graphical representation of Wi-Fi networks in the area. It uses a wireless adapter to capture information about nearby networks and displays the information in a user-friendly interface. Inssider can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
+
+![WhatsApp Image 2023-04-08 at 22 47 10](https://user-images.githubusercontent.com/123303806/230734422-2d7044d9-f1db-4561-b343-cbd686f295f2.jpg)
+
+kismet
 
 Kismet is an open-source tool that can be used for network discovery, packet sniffing, and intrusion detection. It can be used to capture and analyze wireless traffic in the area and provide detailed information about nearby Wi-Fi networks. Kismet can identify the SSID, MAC address, channel, encryption type, and signal strength of the nearby networks.
 
@@ -57,6 +71,8 @@ Display and modify IP Addresses using ip a command.
 The sudo kismet -c wlan0 command is a Linux command that launches the Kismet wireless network detector and sniffer program on the specified wireless network interface wlan0 with root privileges The "-c" option in the command specifies the channel on which the wireless interface should operate.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722288-6d3590b5-efd9-4dd1-bb62-a52050792cab.png)
+
+![image](https://user-images.githubusercontent.com/57287429/230734718-11a1b236-493b-4bf6-8c0b-85b084fa1e46.png)
 
 3. Create an Access point with any Wi-Fi encryption standard and start testing the security of that connection using any Wi-Fi security testing tools,which should include (Aircrack-Ng, Wifite, not limited).Try to capture the 4-way handshake using these methods.
 
@@ -80,9 +96,9 @@ b. Wifite:
 
 An automated tool used to attack multiple wireless networks encrypted with WEP, WPA/WPA2-PSK.
 
-**c. Reaver: A tool that cracks WPS (Wi-Fi Protected Setup) keys and allows attackers to gain access to a wireless network using a PIN.
+c. Reaver: A tool that cracks WPS (Wi-Fi Protected Setup) keys and allows attackers to gain access to a wireless network using a PIN.
 
-**d.** Wireshark: A network protocol analyzer that captures network traffic in real-time and displays it in a human-readable format.
+d. Wireshark: A network protocol analyzer that captures network traffic in real-time and displays it in a human-readable format.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722594-acf00776-1bd1-4db3-8327-aee0bcc7802b.png)
 
@@ -94,7 +110,7 @@ Putting a wired adapter into promiscuous mode. It allows us to see all of the wi
  
 ![image](https://user-images.githubusercontent.com/123303806/230722606-ced84e51-8951-4235-9527-8b5b560a45c8.png)
 
-Focus Airodump-Ng on One AP on One Channel.We need the BSSID and channel to do this.
+Focus Airodump-Ng on One AP on One Channel. We need the BSSID and channel to do this.
 
 ![image](https://user-images.githubusercontent.com/123303806/230722614-7537c96e-05eb-4465-acd5-e2807a83a2bf.png)
 
@@ -133,10 +149,6 @@ Passwords can be brute-forced but it is probably more efficient to use a diction
 ![image](https://user-images.githubusercontent.com/123303806/230722318-1afe1d29-356c-4001-9a3e-4860efe0128c.png)
 
 ![image](https://user-images.githubusercontent.com/123303806/230722308-db3fd608-2204-4d7a-9566-f8ac98cb08f7.png)
-
-5.Use Rouge AP (WifiPhisher) to create an Evil twin, perform a basic phishing attack using this rouge AP,and document the difference between the two attacks you have performed.
-
-Ans : ![image](https://user-images.githubusercontent.com/123303806/230726047-465c2df1-f362-4dbc-b29d-fbd78909faa3.png)
 
 6.Learn the protocol level working of WPA3 and how it differs from WPA2.
 
