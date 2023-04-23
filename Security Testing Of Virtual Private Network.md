@@ -6,11 +6,9 @@ CB.EN.P2CYS22002
 
 1. Create anIPsec-basedVPN with the help of the Strongswan tool.
 
-     First we have installed thestrongswan in both vm (kali,ubuntu) as site A and site B. Check whether it enabled or not.Configure the kernal to enable packet 
-     
-forwarding for ipv4. Edit the configuration file in both sites. Generate secure PSK add the psk to /etc/ipsec-secrets. Secure file in both sites, make copy of
-
-configuration file then setup the vpnconfiguration on that file . Restart the vpn on both gateway and check status and verify both are secured securely.
+     First we have installed thestrongswan in both vm (kali,ubuntu) as site A and site B. Check whether it enabled or not. Configure the kernal to enable packet
+     forwarding for ipv4. Edit the configuration file in both sites. Generate secure PSK add the psk to /etc/ipsec-secrets. Secure file in both sites, make copy
+     configuration file then setup the vpnconfiguration on that file . Restart the vpn on both gateway and check status and verify both are secured securely.
 
 ![image](https://user-images.githubusercontent.com/57287429/233855665-926c1039-02c1-4c87-84a9-9b3dfbfa81b8.png)
 
