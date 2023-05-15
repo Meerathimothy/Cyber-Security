@@ -39,8 +39,9 @@ Now we send a log to splunk-enterprise
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/ec171a99-6432-4732-b4c9-8cc131afc50b)
 
-log is shown in splunk enterprise.
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d57ab861-b6a4-4d02-a644-df7de81103c6)
+
+log is shown in splunk enterprise.
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2369863f-27fd-485e-a677-e7e1e8baef74)
 
