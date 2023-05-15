@@ -19,6 +19,8 @@ Meera E Thimothy
 8) Using Knowledge objects, you will be able to enrich the existing unstructured data.
 9) The search heads and knowledge objects can be accessed via the Splunk web interface. All the communications happen via REST API connection.
 
+Installing Splunk Forwarder in Kali
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2a1fcd45-cb47-43fd-8e0e-17b349de2c2b)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c57bf6d7-d6e2-4bda-b3ed-09b86af97c57)
@@ -27,10 +29,17 @@ Meera E Thimothy
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5057ce08-cc2b-4c4d-a480-a1f234e59f44)
 
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c4785f04-d5a7-477e-88d7-444b6e72d9e7)
+
+Now we send a log to splunk-enterprise
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/56a09a24-849a-45e4-89ab-edba76ecdf4e)
+
+Now we send a log to splunk-enterprise
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/ec171a99-6432-4732-b4c9-8cc131afc50b)
 
+log is shown in splunk enterprise.
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d57ab861-b6a4-4d02-a644-df7de81103c6)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2369863f-27fd-485e-a677-e7e1e8baef74)
@@ -43,6 +52,9 @@ Meera E Thimothy
 • Use the search section in Splunk to analyze the firewall logs to findthe log of the above process and the exact IP from where the scan was performed. HINT: Use the “stats” command.
 
 • Analyze the log file and create an alert for any further similar activities.
+
+Here we have created scan.log file into the /var/log file .The nmap commands output is saved into the scan.log file by using nmapcommands>>nmap.log 
+the nmap commands are nmap -o ,-sV,-A,finding host in subnet is performed. the the logs are forwarded into the enterprise.the name of the log file is usedto scan the log of nmap commands are done.
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/26bb4cf3-e027-48b9-ac13-fad8ae360602)
 
@@ -72,6 +84,8 @@ Meera E Thimothy
 
 • Analyze the log file and create an alert for any further similar activities.
 
+Here we have entered into the vulnerable website , the logs are saved and then forwarded the log into the splunk enterprise.In the splunk , we have searched query based on access.log.1 and the get request in the search query field,so we obtained the searches in the kali.
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/81fec381-a266-4910-85fd-00ba9433fc0e)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/24dd5924-3895-44ba-b25d-174b894911c2)
@@ -80,7 +94,17 @@ Meera E Thimothy
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/9f732be9-949c-41cf-9db8-46aa32a680be)
 
+5. Run Splunk >> Forwarder can be in the same system or another system(user’s convenience) >>Make sure the logs are indexing in the Splunk enterprise.
 
+• Logout of the target system and perform multiple failedattempts. Then use the search section to filter out the failed attempt logs. Hint: Use the “stats” command.
+
+•Analyze the log file and create an alert for any further similar activities. 
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/eff30b07-1391-4bad-9f64-05b675063879)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/469a1eea-b15c-4aab-b2c3-cb380bd0bf56)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/131829a7-ba6f-434f-97ab-50b1b715ee3f)
 
 
 
