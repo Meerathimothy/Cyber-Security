@@ -8,7 +8,6 @@
 2)
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/26bb4cf3-e027-48b9-ac13-fad8ae360602)
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/3e8bd69e-9e2d-4eb0-bd8b-cd03711f6194)
-![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/fd621f36-8961-446f-a470-5ff58bb5c955)
-![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b2fec678-5a4e-4117-bcf2-4cfe53ef11a5)
+
 
 
