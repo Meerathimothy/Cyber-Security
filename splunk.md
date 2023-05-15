@@ -3,7 +3,7 @@ CB.EN.P2CYS22002
 
 Meera E Thimothy
 
-1) Understand the architecture of Splunk and the installation process. Setup collector and forwarder,then ensure the logs areaccumulated in Splunk. Familiarize yourself with the dashboard fields.
+1) Understand the architecture of Splunk and the installation process. Setup collector and forwarder,then ensure the logs are accumulated in Splunk. Familiarize yourself with the dashboard fields.
 
  Architecture Of Splunk
 
@@ -19,7 +19,13 @@ Meera E Thimothy
 8) Using Knowledge objects, you will be able to enrich the existing unstructured data.
 9) The search heads and knowledge objects can be accessed via the Splunk web interface. All the communications happen via REST API connection.
 
-![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/076ace48-af89-4d20-93c4-172edd29353a)
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2a1fcd45-cb47-43fd-8e0e-17b349de2c2b)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c57bf6d7-d6e2-4bda-b3ed-09b86af97c57)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6d70fadd-13e9-4e8a-aead-17aa2f513b0d)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5057ce08-cc2b-4c4d-a480-a1f234e59f44)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/56a09a24-849a-45e4-89ab-edba76ecdf4e)
 
@@ -57,6 +63,23 @@ Meera E Thimothy
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/764bea95-3821-4a52-aaa5-98bffee6a26f)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/05effa49-e9e6-4b89-9d2b-dc154e577e1d)
+
+3) Run Splunk >> Forwarder can be in the same system or another system(user’s convenience). Make sure the logs are indexing in the Splunk enterprise.
+
+• Perform any communication using unencrypted traffic.
+
+• Use the Splunk search section to check the firewall logs to analyze which application uses unencrypted data.
+
+• Analyze the log file and create an alert for any further similar activities.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/81fec381-a266-4910-85fd-00ba9433fc0e)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/24dd5924-3895-44ba-b25d-174b894911c2)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/e887a729-6134-4352-a4cd-2769e8dafa82)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/9f732be9-949c-41cf-9db8-46aa32a680be)
+
 
 
 
