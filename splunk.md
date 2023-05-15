@@ -45,7 +45,6 @@ log is shown in splunk enterprise.
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2369863f-27fd-485e-a677-e7e1e8baef74)
 
-
 2) Run Splunk >> Forwarder can be inthe same system or another system(user’s convenience) Make sure the logs are indexing in the Splunk enterprise.
 
 • Run any network and port scanning commands from the host to the target machine. Run at least 5 to 8 commands. (If required,any tools can also beused).
