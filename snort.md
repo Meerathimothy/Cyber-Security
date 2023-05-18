@@ -3,6 +3,7 @@
  SNORT is an open-source, rule-based Network Intrusion Detection and Prevention System (NIDS/NIPS). Snort is the foremost Open Source Intrusion Prevention System (IPS) in the world. Snort IPS uses a series of rules that help define malicious network activity and uses those rules to find packets that match against them and generate alerts for users.
  
 Task-Exercises folder
+
 There are two sub-folders available;
 
 Config-Sample - Sample configuration and rule files. These files are provided to show what the configuration files look like.Snort's original base files are located under /etc/snort folder.
@@ -16,7 +17,6 @@ Traffic Generator
 Traffic-generator.sh is used to generate traffic on snort interface.
 
 Running the "traffic generator.sh" file by executing it as sudo. Traffic generator script come in action.
-
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/fb266552-1e76-406c-8450-a4cd6596110e)
 
@@ -34,9 +34,11 @@ opening icmp file
  2 types of IDS 
  
  Network Intrusion Detection System (NIDS)
- NIDS monitors the traffic flow from various areas of the network. Investigate the traffic on the entire subnet. If a signature is identified, an alert is created.
+ 
+ NIDS monitors the traffic flow from various areas of the network. Investigate the traffic on the entire subnet.  If a signature is identified, an alert is created.
  
 Host-based Intrusion Detection System (HIDS)
+
 It monitors the traffic flow from a single endpoint device. Investigate the traffic on a particular device. If a signature is identified, an alert is created.
 
 IPS
@@ -45,8 +47,11 @@ IPS is an active protecting solution for preventing possible malicious activitie
 
 4 types
 Network Intrusion Prevention System (NIPS)
-Behaviour-based Intrusion Prevention System
+
+Behaviour-based Intrusion Prevention System(NBA)
+
 Wireless Intrusion Prevention System (WIPS)
+
 Host-based Intrusion Prevention System (HIPS)
 
 Detection/Prevention Techniques
@@ -61,25 +66,34 @@ NIDS (Network Intrusion Detection System)  and NIPS (Network Intrusion Preventio
 
 
 Which snort mode can help you stop the threats on a local machine?
+
 HIPS
 
 Which snort mode can help you detect threats on a local network?
+
 NIDS
 
 Which snort mode can help you detect the threats on a local machine?
+
 HIDS
 
 Which snort mode can help you stop the threats on a local network?
+
 NIPS
 
 Which snort mode works similar to NIPS mode?
+
 NBA
 
 According to the official description of the snort, what kind of NIPS is it?
+
 full-blown
 
 NBA training period is also known as 
+
 Baselining
+
+
 
 
 
