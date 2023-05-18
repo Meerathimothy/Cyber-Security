@@ -93,6 +93,44 @@ NBA training period is also known as
 
 Baselining
 
+First Interaction with Snort
+
+Checking snort installed and its configuration file is valid or not.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d8df7047-4383-4f2f-8d33-9589019ff9c0)
+
+-T" is used for testing configuration
+
+"-c" is identifying the configuration file (snort.conf).
+
+Run the Snort instance and check the build number.
+
+149
+
+Test the current instance with "/etc/snort/snort.conf" file and check how many rules are loaded with the current build.
+
+4151
+
+Test the current instance with "/etc/snort/snortv2.conf" file and check how many rules are loaded with the current build.
+
+1
+
+Operation Mode 1: Sniffer Mode
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b026b637-76a7-486e-8d7e-9757110c3258)
+
+Start the Snort instance in verbose mode (-v) and use the interface (-i) "eth0"
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/1a3c0424-8f30-4ef8-8b80-22c1e4478354)
+
+sniff on the interface named "eth0"
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8bb66385-e9c0-48ac-b1f1-eb9169067d80)
+
+Sniffing with parameter "-v"
+
+
+
 
 
 
