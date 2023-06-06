@@ -26,3 +26,11 @@ Evasion - direct attempt to evade antivirus software.
 Exploits - Exploits, neatly organized by target system.
 
 NOPs - No Operation => Intel x86 CPU family, CPU will do nothing for one cycle
+
+Task 1
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/985ccd61-f444-44c5-8fa8-2965773cf75f)
+
+Task 2
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5daaa922-f270-40f2-945a-12699c7b2678)
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/29c423a1-05e8-4cb5-9c3a-ca71cc9afe27)
