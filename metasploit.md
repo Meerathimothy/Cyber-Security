@@ -3,23 +3,30 @@
 Metasploit is a  tools that allow information gathering, scanning, exploitation, exploit development, post-exploitation. Primary usage is for pentrate Testimg.
  
 Metasploit has two main versions:
+
 1) Metasploit Pro - commercial version,GUI.
+
 2) Metasploit Framework - open source,
-Payload: An exploit will take advantage of a vulnerability.command version.
+
+3) Payload: An exploit will take advantage of a vulnerability.command version.
 
 Components Of Metasploit
 i)   msfconsole - Main command line interface. Typing msfconsole command in terminal.
+
 ii)  Modules - supporting modules such as exploits, scanners, payloads.
+
 iii) Tools - Stand-alone tools that will help vulnerability research, vulnerability assessment,penetration testing
 
 Exploit: A piece of code that uses a vulnerability present on the target system.
+
 Vulnerability: A design, coding, or logic flaw affecting the target system.
+
 Payload: An exploit will take advantage of a vulnerability.Payloads are the code that will run on the target system.
 
 Auxiliary - Any supporting module, such as scanners, crawlers and fuzzers.
 
 Encoders - Encoders will allow you to encode the exploit and payload in the hope that a signature-based antivirus solution may miss them.
-           Signature-based antivirus and security solutions have a database of known threats. They detect threats by comparing suspicious files to this database and raise an alert if there is a match.
+           Signature-based antivirus and security solutions have a database of known threats. They detect threats by comparing suspicious    files to this database and raise an alert if there is a match.
            
 Evasion - direct attempt to evade antivirus software.
 
@@ -39,7 +46,6 @@ Task 3 Msfconsole
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5daaa922-f270-40f2-945a-12699c7b2678)
 
-
 2)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6bcbe3e2-c7f3-4f48-9d27-2339451c86fd)
@@ -51,7 +57,6 @@ Task 4 Working with modules
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/22510b15-626a-414b-a8c7-7bed396585c7)
 
                                        Metasploit: Exploitation
-
                                          
 Task 5
 
@@ -74,6 +79,17 @@ Task 5
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/a309bd4f-48c1-4715-812a-4aeec67e9d5a)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/9439095e-e6a3-4f77-9ed1-ac06d54e4fbc)
+
+                                           Metasploit: Exploitation
+
+Task 6 - Msfvenom
+                                    
+1) 
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d22e8fde-acd2-43c7-9140-8b22420d61d2)
+
+
+
+
 
 
 
