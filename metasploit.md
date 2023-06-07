@@ -1,5 +1,5 @@
-                                 Metasploit
-      
+                                             Metasploit - Introduction
+                                             
 Metasploit is a  tools that allow information gathering, scanning, exploitation, exploit development, post-exploitation. Primary usage is for pentrate Testimg.
  
 Metasploit has two main versions:
@@ -27,13 +27,52 @@ Exploits - Exploits, neatly organized by target system.
 
 NOPs - No Operation => Intel x86 CPU family, CPU will do nothing for one cycle
 
-Task 1
+Task 2 -  Main Components of Metasploit
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/985ccd61-f444-44c5-8fa8-2965773cf75f)
 
-Task 2
+Task 3 Msfconsole
 
-![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5daaa922-f270-40f2-945a-12699c7b2678)
+1)
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/29c423a1-05e8-4cb5-9c3a-ca71cc9afe27)
 
-Task 3
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5daaa922-f270-40f2-945a-12699c7b2678)
+
+
+2)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6bcbe3e2-c7f3-4f48-9d27-2339451c86fd)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/39fecf1d-1786-472b-acb1-df9fd61f3699)
+
+Task 4 Working with modules
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/22510b15-626a-414b-a8c7-7bed396585c7)
+
+                                       Metasploit: Exploitation
+
+                                         
+Task 5
+
+1)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/e2547ff2-5a5b-45a1-86cb-56d1858eacd8)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/4f2be870-31af-4a85-902e-80e2e902f0d0)
+
+2)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/33f86361-61b6-4f26-b612-59d740527646)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/3d30e376-f471-41c2-9962-465792b86d8d)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/260bcc37-27a4-462d-8ef5-bde9cd5f7e77)
+
+
+
+
+
+
+
+
