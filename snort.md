@@ -23,6 +23,9 @@ Running the "traffic generator.sh" file by executing it as sudo. Traffic generat
 opening icmp file
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/517e99e2-06ab-460c-9ad4-1337a303b8a8)
+
+1)  Interactive Material and VM
+
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6b88cd90-693a-4b8d-ab00-60b934a78fb5)
 
  Introduction to IDS/IPS
@@ -64,28 +67,29 @@ Sniffer Mode - Read IP packets and prompt them in the console application.
 Packet Logger Mode - Log all IP packets (inbound and outbound) that visit the network.
 NIDS (Network Intrusion Detection System)  and NIPS (Network Intrusion Prevention System) Modes - Log/drop the packets that are deemed as malicious according to the user-defined rules
 
+Task 3
 
-Which snort mode can help you stop the threats on a local machine?
+1) Which snort mode can help you stop the threats on a local machine?
 
 HIPS
 
-Which snort mode can help you detect threats on a local network?
+2) Which snort mode can help you detect threats on a local network?
 
 NIDS
 
-Which snort mode can help you detect the threats on a local machine?
+3) Which snort mode can help you detect the threats on a local machine?
 
 HIDS
 
-Which snort mode can help you stop the threats on a local network?
+4) Which snort mode can help you stop the threats on a local network?
 
 NIPS
 
-Which snort mode works similar to NIPS mode?
+5) Which snort mode works similar to NIPS mode?
 
 NBA
 
-According to the official description of the snort, what kind of NIPS is it?
+6) According to the official description of the snort, what kind of NIPS is it?
 
 full-blown
 
@@ -103,15 +107,15 @@ Checking snort installed and its configuration file is valid or not.
 
 "-c" is identifying the configuration file (snort.conf).
 
-Run the Snort instance and check the build number.
+1) Run the Snort instance and check the build number.
 
 149
 
-Test the current instance with "/etc/snort/snort.conf" file and check how many rules are loaded with the current build.
+2) Test the current instance with "/etc/snort/snort.conf" file and check how many rules are loaded with the current build.
 
 4151
 
-Test the current instance with "/etc/snort/snortv2.conf" file and check how many rules are loaded with the current build.
+3) Test the current instance with "/etc/snort/snortv2.conf" file and check how many rules are loaded with the current build.
 
 1
 
