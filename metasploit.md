@@ -88,7 +88,17 @@ Task 6 - Msfvenom
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d22e8fde-acd2-43c7-9140-8b22420d61d2)
 
                                            Meterpreter
-                                           
+                                          
+Task 5  Post-Exploitation Challenge
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/043c3342-e039-431d-8e23-fe6ecfcba063)
+
+1)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/7b7db1f0-db88-4110-8918-7970f24baa0f)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c34370fb-f734-4f53-99a2-490104d547eb)
+
 
 
 
