@@ -1,6 +1,6 @@
                                              Metasploit - Introduction
                                              
-Metasploit is a  tools that allow information gathering, scanning, exploitation, exploit development, post-exploitation. Primary usage is for pentrate Testimg.
+Metasploit is a  tools that allow information gathering, scanning, exploitation, exploit development, post-exploitation. Primary usage is for pentrate Testing.
  
 Metasploit has two main versions:
 
@@ -98,6 +98,67 @@ Task 5  Post-Exploitation Challenge
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/7b7db1f0-db88-4110-8918-7970f24baa0f)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c34370fb-f734-4f53-99a2-490104d547eb)
+
+2)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/41a04296-3732-46ee-9380-c5b7317136c5)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/a747ec90-e2a9-4a0b-af7a-f3cf761b10cc)
+
+3)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/e8217ab9-eb9e-473f-b6ef-0c6e2b5ebbc4)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/617b4520-1612-42a0-871f-18fb134bc859)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f094eac8-6d30-48bf-a17f-8d848ab3c552)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6f0d5261-4738-4602-b151-88757c066e30)
+
+4)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/26e046d7-c88b-4045-bd9d-dcb4b8f79dcc)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/ae8d0e59-724f-4e12-b4d1-01c1e8156322)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/dd42cfda-84fc-4c8d-a1b1-9819ffa15919)
+
+5)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c32e8db3-8ade-4d44-8692-abb516f6ede3)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/16b83b16-8e65-41b8-bb8c-ef5a9b972543)
+
+6)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/fe411d70-f4e3-4c5b-a6bc-8fe3d2960820)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5de028b8-8ac1-4442-9f21-a4a627215a85)
+
+7)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8b1b4837-9f4c-460a-8b6e-b5c249eced00)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5c679d29-d0dd-4be0-a8c7-5ab66d41c9f1)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c7a37912-4ab2-4ecd-a0f5-ca66530a73d0)
+
+8)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2f79088e-6f16-4096-b80c-6a0a26ca4655)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6eae0fca-b772-42ae-8694-61ee19b127df)
+
+9)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/21e014b0-a375-4297-be3f-395cc735d77c)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/0d0201c6-6214-4f19-b721-e777e4af828e)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8f5bd72d-ccad-460b-994b-7259d74e8153)
+
+
+
 
 
 
