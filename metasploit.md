@@ -78,6 +78,22 @@ Task 4 Working with modules
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/4be36e88-1c78-4316-867b-379ed4830d18)
 
+4)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2a3e5f5a-5cc0-410e-b0fd-9a36c050aea4)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/1d2cfa65-45ef-49a0-84e5-c7d7c9ca08df)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/28a3a90e-0f12-4971-9c14-e31b2561717a)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/157b6439-0860-4549-904f-1b77290fe486)
+
+Task 4 : Vulnerability Scanning
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8044e118-3c11-40ba-bfb2-323b3b7bbea6)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/1b7ce34f-4338-417e-a3e6-e4761152b53c)
+
 Task 5
 
 1)
