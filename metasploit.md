@@ -57,7 +57,27 @@ Task 4 Working with modules
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/22510b15-626a-414b-a8c7-7bed396585c7)
 
                                        Metasploit: Exploitation
-                                         
+                                       
+ Task 2 : Scanning
+ 
+ 1)
+
+![Screenshot 2023-06-06 172721](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/addfeae9-42b6-4777-881b-922fdbbb1391)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/5c71bc3f-8eba-4e66-af82-4d3a97cd84c8)
+
+2)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8572e9a2-0d7c-457c-aeac-de07c38d11ea)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f2244d4c-da11-41e8-a7da-8b66f9bda7db)
+
+3)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/ee997842-a7e0-469b-82a3-5aa4c8801cb4)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/4be36e88-1c78-4316-867b-379ed4830d18)
+
 Task 5
 
 1)
@@ -85,7 +105,15 @@ Task 5
 Task 6 - Msfvenom
                                     
 1) 
-![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d22e8fde-acd2-43c7-9140-8b22420d61d2)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/faedc1f0-b917-4d5a-a947-fb84b8ee6ae0)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/60053456-067f-4c7a-9e2b-2b5418ba9314)
+
+2)
+
+
+
 
                                            Meterpreter
                                           
@@ -156,6 +184,7 @@ Task 5  Post-Exploitation Challenge
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/0d0201c6-6214-4f19-b721-e777e4af828e)
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8f5bd72d-ccad-460b-994b-7259d74e8153)
+
 
 
 
