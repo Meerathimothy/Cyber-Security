@@ -113,3 +113,11 @@ GQ47wazXe1xYVBrkeDg-JOg7ODDQwWdR@JOg7ODDQwWdR-yVkCaBkTNp.gogolecloud.com
 
 209[.]85[.]167[.]226
 
+4) From what you can gather, what do you think will be a domain of interest? Defang the domain.
+
+etekno[.]xyz
+
+5) 
+What is the shortened URL? Defang the URL.
+
+hxxps[://]t[.]co/yuxfZm8KPg?amp=1
