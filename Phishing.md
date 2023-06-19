@@ -121,3 +121,41 @@ etekno[.]xyz
 What is the shortened URL? Defang the URL.
 
 hxxps[://]t[.]co/yuxfZm8KPg?amp=1
+
+Task 8  Phishing Case 2
+
+Scenario: You are a Level 1 SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email for your team to implement the appropriate rules to prevent colleagues from receiving additional spam/phishing emails. 
+
+A malicious attachment from a phishing email inspected in the previous Phishing Room was uploaded to Any Run for analysis. 
+
+Task: Investigate the analysis and answer the questions below. 
+
+1) What does AnyRun classify this email as?
+   
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b63fd87e-f481-4548-84a1-095135e3fee4)
+
+Suspicious activity
+
+2) What is the name of the PDF file?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c91c7c2b-cce5-42cc-bbfb-35db163442b6)
+
+Payment-updateid.pdf
+
+3) What is the SHA 256 hash for the PDF file?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2efb72c5-2ea5-4037-8ac7-6d03dd912f2d)
+
+CC6F1A04B10BCB168AEEC8D870B97BD7C20FC161E8310B5BCE1AF8ED420E2C24
+
+
+
+
+
+Some other tools
+
+https://mxtoolbox.com/
+
+https://phishtank.com/?
+
+https://www.spamhaus.org/
