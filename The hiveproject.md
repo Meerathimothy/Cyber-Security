@@ -15,7 +15,8 @@ TheHive Project is a scalable, open-source and freely available Security Inciden
  
  2) Elaborate
 
- Details of each case can be broken down into associated tasks. Analysts can record their progress, attach artifacts of evidence and assign tasks.                                                                                                                                                              
+ Details of each case can be broken down into associated tasks. Analysts can record their progress, attach artifacts of evidence and assign tasks. 
+ 
  3) Act
 
 Allow analysts to add observables to their cases, to flag IOCs and identify previously seen observables. 
