@@ -1,4 +1,4 @@
-                     Phishing Analysis Tools
+                                     Phishing Analysis Tools
                      
 we will outline the steps performed when analyzing a suspicious or malicious email. Information collected from the email header:
 
