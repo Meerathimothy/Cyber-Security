@@ -148,9 +148,77 @@ Payment-updateid.pdf
 
 CC6F1A04B10BCB168AEEC8D870B97BD7C20FC161E8310B5BCE1AF8ED420E2C24
 
+4) What two IP addresses are classified as malicious? Defang the IP addresses. (answer: IP_ADDR,IP_ADDR)
 
+On the text report document, find the connections section, get malicious reputation IP
 
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f9db72b2-c8ce-4fdf-a27b-ab74bf872b89)
 
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/d11371d2-6c56-4735-b91e-4cde7a6d0194)
+
+Defang using cyberchef.
+
+2[.]16[.]107[.]24,2[.]16[.]107[.]83
+
+5) What Windows process was flagged as Potentially Bad Traffic?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b2a0ccf6-c664-4fef-9a46-a7e305f66e56)
+
+svchost.exe
+
+Task 9  Phishing Case 3
+
+Scenario: You are a Level 1 SOC Analyst. Several suspicious emails have been forwarded to you from other coworkers. You must obtain details from each email for your team to implement the appropriate rules to prevent colleagues from receiving additional spam/phishing emails. 
+
+A malicious attachment from a phishing email inspected in the previous Phishing Room was uploaded to Any Run for analysis. 
+
+Task: Investigate the analysis and answer the questions below. 
+
+1) What is this analysis classified as? 
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f2e59800-8dee-4874-ad55-6f53a6c022e5)
+
+Malicious Activity
+
+2) What is the name of the Excel file?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/7193eba0-afa4-46bc-b085-9486329b6a24)
+   
+CBJ200620039539.xlsx
+
+3) What is the SHA 256 hash for the file?
+
+Click on the excel file. We will get details.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/dcd932c8-25b9-4358-8b45-cf0d2dba196f)
+
+5F94A66E0CE78D17AFC2DD27FC17B44B3FFC13AC5F42D3AD6A5DCFB36715F3EB
+
+4) What domains are listed as malicious? Defang the URLs & submit answers in alphabetical order. (answer: URL1,URL2,URL3)
+
+We will takr text report and check in connections/ DNS request
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/9b64dc81-2022-4253-8a5e-10d1c0331299)
+
+Defanging it 
+
+biz9holdings[.]com,findresults[.]site, ww38[.]findresults[.]site
+
+5) What IP addresses are listed as malicious? Defang the IP addresses & submit answers from lowest to highest. (answer: IP1,IP2,IP3)
+
+We will takr text report and check in connections/ DNS request
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2f1ee4fb-c5c7-4566-873e-27e908f8b00b)
+
+204[.]11[.]56[.]48,103[.]224[.]182[.]251,75[.]2[.]11[.]242
+
+6) What vulnerability does this malicious attachment attempt to exploit?
+
+For vulnerability exploitation, we take CVE number.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2b355ae4-033b-4737-a6ee-79b7773da8e6)
+
+CVE-2017–11882
 
 Some other tools
 
