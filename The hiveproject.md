@@ -15,11 +15,11 @@ TheHive Project is a scalable, open-source and freely available Security Inciden
  
  2) Elaborate
 
- Details of each case can be broken down into associated tasks. Analysts can record their progress, attach artifacts of evidence and assign tasks.
- 
+ Details of each case can be broken down into associated tasks. Analysts can record their progress, attach artifacts of evidence and assign tasks.                                                                                                                                                              
  3) Act
 
 Allow analysts to add observables to their cases, to flag IOCs and identify previously seen observables. 
+
 
 TheHive Features & Integrations
 
@@ -33,14 +33,23 @@ Every investigation is meant to a case that has been created. Each case can be b
 
 Cases can be imported from SIEM alerts, email reports and other security  sources. In this feature it will go through these imported alerts and decide whether they should be used into investigations or not.
 
+3) Observable Enrichment with Cortex
 
+One of the main feature integrations TheHive supports is Cortex. Cortex allows analysts to collect more information from threat indicators by performing correlation analysis and developing patterns from the cases.
 
+4) Active Response
 
+Run active actions to communicate, share information about incidents and prevent or contain a threat.
 
+5) Custom Dashboard
 
+Statistics on cases, tasks, observables, metrics etc. can be compiled and distributed on dashboards which is  used to generate KPIs within an organisation. 
 
+6) Built-in MISP Integration 
 
+Another useful integration is with MISP. It is a platform for sharing and storing IOC of targeted attacks, financial fraud, vulnerability information or even terrorism information. This integration allows analysts to create cases from MISP events
 
+Other notable integrations that TheHive supports are DigitalShadows2TH & ZeroFox2TH
 
 
 
