@@ -82,32 +82,32 @@ The list of permissions
 
 Permission                                Functions
 
-manageOrganisation               Create & Update an organisation
+manageOrganisation       -        Create & Update an organisation
 
-manageConfig                     Update Configuration
+manageConfig              -       Update Configuration
 
-manageProfile                    Create, update & delete Profiles
+manageProfile            -        Create, update & delete Profiles
 
-manageTag                        Create, update & Delete Tags
+manageTag             -         Create, update & Delete Tags
 
-manageCase                       Create, update & delete Cases
+manageCase            -          Create, update & delete Cases
 
-manageALert                      Create, update & import Alerts
+manageALert            -         Create, update & import Alerts
 
-manageUser                       Create, update & delete Users
+manageUser              -        Create, update & delete Users
 
-manageTask                       Create, update & delete Tasks
+manageTask               -       Create, update & delete Tasks
 
-manageAnalyse                    Execute Analyse
+manageAnalyse             -       Execute Analyse
 
-manageAction                     Execute Actions
+manageAction             -        Execute Actions
 
-manageAnalyserTemplate          Create, update & delete Analyser Templates
+manageAnalyserTemplate    -   Create, update & delete Analyser Templates
+
 
 Organisations, configuration, profiles and tags - administrative permission
 
 Actions, analysis and template are available only if the Cortex connector is enabled
-
 
 Which pre-configured account cannot manage any cases?
 
