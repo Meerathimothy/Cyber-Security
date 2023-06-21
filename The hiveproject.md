@@ -21,7 +21,6 @@ TheHive Project is a scalable, open-source and freely available Security Inciden
 
 Allow analysts to add observables to their cases, to flag IOCs and identify previously seen observables. 
 
-
 TheHive Features & Integrations
 
 Thehive project has platform rich feature set and integrations to support workflows. These features include:-
@@ -51,6 +50,7 @@ Statistics on cases, tasks, observables, metrics etc. can be compiled and distri
 Another useful integration is with MISP. It is a platform for sharing and storing IOC of targeted attacks, financial fraud, vulnerability information or even terrorism information. This integration allows analysts to create cases from MISP events
 
 Other notable integrations that TheHive supports are DigitalShadows2TH & ZeroFox2TH
+
 
 
 
