@@ -227,3 +227,44 @@ https://mxtoolbox.com/
 https://phishtank.com/?
 
 https://www.spamhaus.org/
+
+The Greenholt Phish
+
+Task 1  Just another day as a SOC Analyst
+
+A Sales Executive at Greenholt PLC received an email that he didn't expect to receive from a customer. He claims that the customer never uses generic greetings such as "Good day" and didn't expect any amount of money to be transferred to his account. The email also contains an attachment that he never requested. He forwarded the email to the SOC (Security Operations Center) department for further investigation.
+
+Investigate the email sample to determine if it is legitimate. 
+
+Tip: Open the EML file with Thunderbird.
+
+1) What is the email's timestamp? (answer format: mm/dd/yyyy hh:mm)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/77d0e969-5ffc-4de5-925b-cc96f6cad2d4)
+
+06/10/2020 5:58
+
+2) Who is the email from?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/828037a4-739f-4bac-8cbf-e08f12732470)
+
+Mr. James Jackson
+
+3) What his email address?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/708a741c-cdb8-4231-9b73-8e6a0aaf6fa0)
+
+info@mutawamarine.com
+
+4) What email address will receive a reply to this email? 
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6ffde9ff-a34f-4e50-9271-d0a4323be577)
+
+info.mutawamarine@mail.com
+
+
+
+
+
+
+   
