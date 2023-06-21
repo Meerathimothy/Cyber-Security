@@ -51,16 +51,61 @@ Another useful integration is with MISP. It is a platform for sharing and storin
 
 Other notable integrations that TheHive supports are DigitalShadows2TH & ZeroFox2TH
 
+ User Profiles & Permissions
 
+ One of its features is the ability to create organization groups and assign different roles to analysts based on pre-configured user profiles. By creating an organization group in TheHive, administrators can group analysts together based on their roles, departments, or any other criteria relevant to their organization.
 
+ ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/dc4d9037-15c5-4fa3-8ba3-09dfaea2fa5e)
 
+The pre-configured user profiles are:
 
+Admin: full administrative permissions on the platform. They can't manage any Cases or other data related to investigations.
 
+Org-admin: manage users and all organisation-level configuration. It create and edit Cases, Tasks etc.
 
+Analyst: can create and edit Cases, Tasks, Observables and run Analysis.
 
+Read-only: Can only read, Cases, Tasks and Observables details
 
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/caad5ba6-7372-48a1-8916-3092a1662af9)
 
+Each user profile has a pre-defined list of permissions that would allow the user to perform different tasks based on their role. When a profile has been selected, its permissions will be listed
 
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/850e71c2-9ce3-48f1-b8d8-5abf80df7d46)
+
+The list of permissions 
+
+Permission                                Functions
+
+manageOrganisation               Create & Update an organisation
+
+manageConfig                     Update Configuration
+
+manageProfile                    Create, update & delete Profiles
+
+manageTag                        Create, update & Delete Tags
+
+manageCase                       Create, update & delete Cases
+
+manageALert                      Create, update & import Alerts
+
+manageUser                       Create, update & delete Users
+
+manageTask                       Create, update & delete Tasks
+
+manageAnalyse                    Execute Analyse
+
+manageAction                     Execute Actions
+
+manageAnalyserTemplate          Create, update & delete Analyser Templates
+
+Organisations, configuration, profiles and tags - administrative permission
+
+Actions, analysis and template are available only if the Cortex connector is enabled
+
+Creating a case
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/08e15b86-a606-45d1-a7a2-567b61f11a6b)
 
 
 
