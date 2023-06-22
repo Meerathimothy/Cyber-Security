@@ -45,6 +45,47 @@ with credentials provided
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/2a636eab-cbf0-4291-80e0-b4b1dfe6e855)
 
+Task 3  Interacting with client machines
 
+some links are grayed out when you first log into Velociraptor.
 
+These links are specific to client endpoints and will become active once the analyst interacts with these endpoints.
+
+Now adding client to velociraptor. The client will be Windows. 
+
+command -  velociraptor-v0.5.8-windows-amd64.exe --config velociraptor.config.yaml client -v
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/4ac7377d-e80b-4dd2-aaee-efd624b86637)
+
+With show all option it will display a list of client machines running the Velociraptor agent
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/1249200f-3631-4b83-9e45-65e419d66369)
+
+When we click on client id , 
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b6f8168e-0112-47b0-a43a-d074fa22531b)
+
+Overview :- Gives  additional details 
+
+VQL Drilldown
+
+Memory and CPU usage over 24 hours timespan
+
+Orange - Memory usage
+
+Blue - CPU usage
+
+Shell
+
+With the shell, commands can be executed remotely on the client machine. Commands can be run in  PowerShell, CMD, Bash, or VQL.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/38dba2dc-c79b-4111-8a58-a6c8e4937e60)
+
+Collected
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/26c22bfc-3a56-43ed-a583-eed22b751ae4)
+
+Interrogate
+
+ This is for introgating
 
