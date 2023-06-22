@@ -307,7 +307,7 @@ Volatile Machine State
 
 parse_mft(filename="C:$MFT", accessor="ntfs")
 
-What filter expression will ensure that no directories are returned in the results?
+2) What filter expression will ensure that no directories are returned in the results?
 
 IsDIR
 
