@@ -237,10 +237,77 @@ Recursively download this directory from the client
 
    desktop.ini
 
-4) There is hidden text in a file located in the Admin's Documents folder. What is the flag?
+4) There is hidden text in a file located in the Admin'sT Documents folder. What is the flag?
  
   Navigate to file, then to C: , then to ntfs folder, then to user folder, then to administrator and then to documents. open flag.txt.hidden file 
  
  ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6cf7f397-3e74-4be4-9cf0-228c3646bbd4)
 
-THM{VkVMT0NJUkFQVE9S}
+THM{VkVMT0NJUkFQVE9S}Task 6  VQL (Velociraptor Query Language)
+
+Task 6  VQL (Velociraptor Query Language)
+
+VQL is a framework for creating highly customized artifacts, which allow you to collect, query, and monitor almost any aspect of an endpoint, groups of endpoints, or an entire network. It can also be used to create continuous monitoring rules on the endpoint, as well as automate tasks on the server
+
+It is similar to SQL . It also have SELECT, FROM, and WHERE
+
+To execute a simple VQL, first create a Notebook
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/193ab0df-2ff1-4420-b2ca-b6e67c7dee1e)
+
+Notebooks consist of two languages - Markdown and VQL. If you are familiar with Jupyter Notebooks.
+
+Creating notebook
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/25bc4909-45fb-4ab7-a341-386c755d0360)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/19a2ca5d-42e6-4591-b50f-c5b505f2cef0)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b03758ca-c58d-4c46-9abe-3a0c1ed8170a)
+
+Click into the lower box to display the options for this, then select the pencil to edit
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/b49beb9a-966a-474f-aa59-e625eecd0326)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/fadb9e31-09a1-4758-8b81-c9e57d661e69)
+
+save this notebook and run it against the agent as demonstrated below
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/85d16618-0e5e-4f5d-abfa-fdc78c508be7)
+
+VQL can also be run via the command line.  VQL is run from the command line querying an agent for details such as its hostname.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/ef428866-598d-4104-9e3b-29345715a7a0)
+
+Artifacts
+
+Velociraptor allows packaging VQL queries inside mini-programs called Artifacts. An artifact is simply a structured YAML file containing a query, with a name attached to it. This allows Velociraptor users to search for the query by name or description and simply run the query on the endpoint without necessarily needing to understand or type the query into the UI.
+
+Task 7  Forensic Analysis VQL Plugins
+
+VQL is not useful without a good set of plugins that make DFIR work possible. 
+
+The categories surrounding forensic analysis
+
+Searching Filenames
+
+Searching Content
+
+NTFS Analysis
+
+Binary Parsing
+
+Evidence of Execution
+
+Event Logs
+
+Volatile Machine State
+
+1) What are the arguments for parse_mft()?
+
+parse_mft(filename="C:$MFT", accessor="ntfs")
+
+What filter expression will ensure that no directories are returned in the results?
+
+IsDIR
+
