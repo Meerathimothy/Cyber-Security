@@ -344,3 +344,37 @@ AND **
 This is the complete skeleton query
 
 SELECT “C:/” + FullPath AS Path_Path, FileName AS File_Name,parse_pe(file=”C:/” + FullPath) AS PE From parse_mft(filename=”C:/$MFT”, accessor=”ntfs”) where NOT IsDir AND FullPath =~”Windows/System32/spool/drivers” AND PE
+
+What is the name in the Artifact Exchange to detect Printnightmare?
+
+Windows.Detection.PrintNightmare
+
+Per the above instructions, what is your Select clause? 
+
+SELECT “C:/” + FullPath AS Full_Path,FileName AS File_Name ,parse_pe(file=”C:/” + FullPath) AS PE
+
+Opening velociraptor in instant mode
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/51a5bea3-f17a-463b-a6c8-2fb8e0ae675c)
+
+It will automatically open velociraptor agent in chrome
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/96e1e8ee-2940-4072-b386-6579c3554321)
+
+created a notebook with user admin
+
+Now paste the skeleton query and save it.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/4197ab72-0e13-4b67-955e-7980fe1aae08)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/a95f2f31-ee1d-4ec2-aacb-b1601153f726)
+
+What is the name of the DLL that was  placed by the attacker?
+
+nightmare.ddl
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c066e301-3781-4f66-866c-a49c0cb16dcd)
+
+What is the PDB entry?
+
+"C:\Users\caleb\source\repos\nightmare\x64\Release\nightmare.pdb"
