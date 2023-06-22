@@ -311,3 +311,36 @@ parse_mft(filename="C:$MFT", accessor="ntfs")
 
 IsDIR
 
+Task8 Hunt for a nightmare
+
+Use Velociraptor to create an artifact to detect the PrintNightmare vulnerability
+
+Below are steps to construct your VQL query to find the DLL: 
+
+The Select clause, the column accessors should be fullpath (concatenate C:/ to the fullpath column accessor) and filename. 
+
+Make sure the column headers for each column accessor are renamed. Fullpath should be Full_Path, and for filename it should be File_Name.
+
+Use parse_pe() to ensure only PE files are returned.
+
+Make sure the column header for this plugin should be renamed to PE. 
+
+The From clause should use parse_mft().
+
+The Where clause should not return any directories, only return binaries (PE files).
+
+Skeleton Query:
+
+SELECT "C:/" + FullPath AS *********,FileName AS *********,parse_pe(file="C:/" + FullPath) AS **
+
+FROM parse_mft(filename="C:/$***", accessor="****")
+
+WHERE *** IsDir
+
+AND FullPath =~ "Windows/System32/spool/drivers"
+
+AND **
+
+This is the complete skeleton query
+
+SELECT “C:/” + FullPath AS Path_Path, FileName AS File_Name,parse_pe(file=”C:/” + FullPath) AS PE From parse_mft(filename=”C:/$MFT”, accessor=”ntfs”) where NOT IsDir AND FullPath =~”Windows/System32/spool/drivers” AND PE
