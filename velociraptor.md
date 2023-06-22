@@ -192,3 +192,55 @@ ubuntu on subwindows system for linux
 20
 
 ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/9adbe2fb-7624-48ce-adc8-0e375e7eb01e)
+
+Task 5  VFS (Virtual File System)
+
+The VFS is simply a server side cache of the files on the endpoint.GUI to allow inspection of the client’s filesystem.
+
+Below is what you should see when you first access the VFS for a client.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/579455e2-c923-47ab-a12d-636a15dffc81)
+
+ there are 4 folders (or accessors, filesystem access drivers):
+
+file - uses operating system APIs to access files
+
+ntfs - uses raw NTFS parsing to access low level files
+
+registry - uses operating system APIs to access the Windows registry
+
+artifacts - previously run collections. 
+
+Three buttons:-
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6526a4e2-f15b-4c27-9bed-8138169b0a67)
+
+Refresh the current directory (sync its listing from the client)
+
+Recursively refresh this directory (sync its listing from the client)
+
+Recursively download this directory from the client
+
+1) Which accessor can access hidden NTFS files and Alternate Data Streams? (format: xyz accessor)
+
+    ntfs accessor
+
+2) Which accessor provides file-like access to the registry? (format: xyz accessor)
+
+     registry accessor
+     
+3) What is the name of the file in $Recycle.Bin?
+
+   Navigate to file, then to C: , then to ntfs folder ,then to recycle bin folder
+   
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/8407416c-b9fe-4124-8dd2-697a93a3d012)
+
+   desktop.ini
+
+4) There is hidden text in a file located in the Admin's Documents folder. What is the flag?
+ 
+  Navigate to file, then to C: , then to ntfs folder, then to user folder, then to administrator and then to documents. open flag.txt.hidden file 
+ 
+ ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/6cf7f397-3e74-4be4-9cf0-228c3646bbd4)
+
+THM{VkVMT0NJUkFQVE9S}
