@@ -87,7 +87,7 @@ Collected
 
 Interrogate
 
- This is for introgating
+ This is for interogating
  
 What is the hostname for the client?
 
@@ -282,6 +282,26 @@ VQL can also be run via the command line.  VQL is run from the command line quer
 Artifacts
 
 Velociraptor allows packaging VQL queries inside mini-programs called Artifacts. An artifact is simply a structured YAML file containing a query, with a name attached to it. This allows Velociraptor users to search for the query by name or description and simply run the query on the endpoint without necessarily needing to understand or type the query into the UI.
+
+
+What is followed after the SELECT keyword in a standard VQL query?
+
+Column Selectors
+
+What goes after the FROM  keyword?
+
+VQL Plugin
+
+What is followed by the WHERE keyword?
+
+Filter expression
+
+What can you type in the Notepad interface to view a list of possible completions for a keyword?
+?
+
+What plugin would you use to run PowerShell code from Velociraptor?
+
+execve()
 
 Task 7  Forensic Analysis VQL Plugins
 
