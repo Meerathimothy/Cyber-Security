@@ -262,9 +262,81 @@ info@mutawamarine.com
 
 info.mutawamarine@mail.com
 
+5) What is the Originating IP?
 
+   ![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/234ecf34-803b-41d1-870a-9cf8b5139c5f)
 
+192.119.71.15
 
+6) Who is the owner of the Originating IP? (Do not include the "." in your answer.)
 
+Performing a WHOIS lookup for the name of the organization.
+
+https://www.whois.com/whois
+
+Searching with ip address
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/529c520a-572c-41cd-b6e1-4a46f683ea3b)
+
+Host winds LLC
+
+7) What is the SPF record for the Return-Path domain?
+
+We got domain from returned path i.e mutawamarine.com
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/02508c23-5437-44af-93b6-d722d6bd40e3)
+
+we will search spf for this domain in https://mxtoolbox.com/spf.aspx.
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/c9c25f33-8837-4781-b66c-373970d53865)
+
+From this we will get 
+
+v=spf1 include:spf.protection.outlook.com -all
+
+v=spf1 → This is the start of the SPF record.
+
+include:spf.protection.outlook.com → This specifies which domain can send mail.
+
+-all → Non-authorized emails will be rejected.
+
+8) What is the DMARC record for the Return-Path domain?
+
+Domain-based Message Authentication Reporting and Conformance (DMARC) is a method of authenticating email messages.
+
+https://mxtoolbox.com/dmarc.aspx
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/7999574e-24e2-4413-8653-f5bafacf4643)
+
+v=DMARC1; p=quarantine; fo=1
+
+v=DMARC1 → Must be in all caps, and it’s not optional.
+
+p=quarantine → If a check fails, then an email will be sent to the spam folder (DMARC Policy).
+
+fo → Specifies failure/forensic reporting options.
+
+fo=1 → Generate a DMARC failure/forensic report if either SPF or DKIM produces a result other than aligned pass.
+
+9) What is the name of the attachment
+
+SWT_#09674321____PDF__.CAB
+
+10) What is the SHA256 hash of the file attachment?
+    
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f22c51b2-cef2-4dda-91f3-eb6ec725bb79)
+
+11) 
+What is the attachments file size? (Don't forget to add "KB" to your answer, NUM KB)
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f22c51b2-cef2-4dda-91f3-eb6ec725bb79)
+
+400.26 KB
+
+12) What is the actual file extension of the attachment?
+
+![image](https://github.com/Meerathimothy/Cyber-Security/assets/57287429/f22c51b2-cef2-4dda-91f3-eb6ec725bb79)
+
+RAR
 
    
